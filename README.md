@@ -19,7 +19,7 @@ Adaptado y revisado por Don Isaac Moya y Guille Sanchez
 
 ## Demo
 
-Puedes probar una demo del juego en [enlace a la demo](https://url-de-tu-demo.com).
+Puedes probar una demo del juego en [enlace a la demo](https://loouiss.github.io/hobbit-cliente/).
 
 ## Instalación
 
@@ -28,7 +28,7 @@ Para ejecutar el juego localmente, sigue estos pasos:
 1. Clona el repositorio a tu máquina local:
 
    ```bash
-   git clone https://github.com/tu-usuario/el-hobbit-aventura-interactiva.git
+   git clone https://github.com/LoouisS/hobbit-cliente.git
    ```
 2. Abre el archivo index.html en tu navegador web.
 

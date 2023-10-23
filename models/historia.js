@@ -83,7 +83,7 @@ export class Historia {
 
     escenaPrimera() {
         Historia.mostrarDetalles() // Se muestra por consola a proposito Miguel 😡 
-        document.body.style.backgroundImage = "url('../images/bilbo.jpg')"
+        document.body.style.backgroundImage = "url('images/bilbo.jpg')"
         document.getElementById('texto').style.display = 'block'
         document.getElementById('introduccion').style.display= 'none'
         document.getElementById('retroceder-button').style.display= 'inline'
@@ -121,7 +121,7 @@ export class Historia {
     }
 
     escenaSegunda() {
-        document.body.style.backgroundImage = "url('../images/destruccion.jpg')"
+        document.body.style.backgroundImage = "url('images/destruccion.jpg')"
         document.getElementById("texto").innerHTML += "<h3><strong>Finalmente, Gandalf decide no ir al concierto y quedarse bebiendo con sus amigos.</strong></h3>"
         
         this.gandalf.hablar("Decidido. No iremos a ver a ese maleante.")
@@ -143,7 +143,7 @@ export class Historia {
     }
 
     escenaTercera() {
-        document.body.style.backgroundImage = "url('../images/taquilla.jpg')"
+        document.body.style.backgroundImage = "url('images/taquilla.jpg')"
         document.getElementById('botonmagico').style.display = 'none'
         document.getElementById("texto").innerHTML += "<h3><strong>Gandalf decide que el equipo va a comprar las entradas.</strong></h3>"
 
@@ -181,7 +181,7 @@ export class Historia {
     }
     
     escenaCuarta() {
-        document.body.style.backgroundImage = "url('../images/movil.jpg')"
+        document.body.style.backgroundImage = "url('images/movil.jpg')"
         document.getElementById("texto").innerHTML += "<h3><strong>Fili decide revisar como están las entradas de reventa por internet.</strong></h3>"
 
         this.fili.hablar("Usemos el móvil de Kili para buscar entradas, a ver si están a buen precio.")
@@ -223,7 +223,7 @@ export class Historia {
     }
     
     escenaQuinta() {
-        document.body.style.backgroundImage = "url('../images/prision.jpg')"
+        document.body.style.backgroundImage = "url('images/prision.jpg')"
         document.getElementById("texto").innerHTML += "<h3><strong>Fili decide robarle las entradas al niño que pasaba por allí.</strong></h3>"
 
         this.fili.hablar("Vamos a robarle las entradas a ese niño de allí.")
@@ -377,7 +377,7 @@ export class Historia {
     }
     
     escenaDecima() {
-        document.body.style.backgroundImage = "url('../images/bb.jpg')"
+        document.body.style.backgroundImage = "url('images/bb.jpg')"
         let nombreCuca = ''
 
         do {

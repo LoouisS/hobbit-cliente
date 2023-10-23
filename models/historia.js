@@ -394,9 +394,9 @@ export class Historia {
         document.getElementById('avanzar-button').style.display = 'none'
         document.getElementById('retroceder-button').style.display = 'none'
 
-        this.dwalin.hablar("Eres muy mona, te llamaré "+nombrecuca)
+        this.dwalin.hablar("Eres muy mona, te llamaré "+nombreCuca)
 
-        this.dumbledore.setNombre(nombrecuca)
+        this.dumbledore.setNombre(nombreCuca)
 
         this.dumbledore.hablar("Me has caído bien, enano. Os ayudaré a escapar de aquí como pueda.")
 
